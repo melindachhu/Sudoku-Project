@@ -12,10 +12,10 @@ class Board:
 
     '''
 
-    width
-    height
-    screen
-    difficulty
+    # width
+    # height
+    # screen
+    # difficulty
     
     
     '''
