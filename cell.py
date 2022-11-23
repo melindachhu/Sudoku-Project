@@ -1,10 +1,10 @@
 import math,random
 
 class Cell:
-    value
-    row
-    col
-    screen
+    # value
+    # row
+    # col
+    # screen
 
     # Constuctor for the Cell class
     def __init__(self, value, row, col, screen):
@@ -12,18 +12,15 @@ class Cell:
         self.row = row
         self.col = col
         self.screen = screen
-        pass
 
     # setter
     def set_cell_value(self, value):
-        this.value = value
-        pass
+        self.value = value
 
 
     # setter for sketched value
     def set_sketched_value(self, value):
-        this.screen = value
-        pass
+        self.screen = value
 
     
     def draw(self):
